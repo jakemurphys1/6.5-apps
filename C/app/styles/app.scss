@@ -1,0 +1,52 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+#selectForm{
+  Width:300px;
+  height: 500px;
+  border:black solid 1px;
+  margin-top: 50px;
+  margin-left:40px;
+  h1{
+    text-align: center;
+  }
+  p{
+    margin:20px auto;
+    font-size: 30px;
+    border:solid black 1px;
+    background-color:grey;
+    width:200px;
+    text-align: center;
+  }
+}
+#blogForm{
+  Width:800px;
+  height: 500px;
+  border:black solid 1px;
+  float:right;
+margin-right: 100px;
+margin-top: -500px;
+h1{
+  text-align: center;
+}
+p{
+  margin-left:20px;
+  font-size: 20px;
+}
+}
