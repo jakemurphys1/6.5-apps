@@ -5817,18 +5817,27 @@ button.close {
 img {
   max-width: 100%; }
 
+body {
+  background-color: lightgray; }
+
+h1 {
+  text-align: center; }
+
 .container {
   margin-top: 50px;
   border: solid black 1px;
   width: 500px;
-  height: 600px; }
+  height: 500px;
+  background-color: #6f5137; }
   .container label {
     margin-left: 50%;
     display: inline-block; }
   .container input {
-    margin-left: 200px;
+    margin-left: 180px;
     margin-top: 20px;
-    display: inline-block; }
+    background-color: gray; }
+  .container button {
+    background-color: gray; }
 
 #Title {
   display: inline-block;
@@ -5840,8 +5849,18 @@ img {
   width: 400px;
   height: 300px;
   margin-left: 35px;
-  display: inline-block;
-  padding-bottom: 280px;
   word-wrap: break-word; }
+
+.titles {
+  border: solid black 1px;
+  background-color: grey;
+  margin-left: 10px;
+  font-size: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 30px; }
+
+.titlecontainer {
+  display: inline-block; }
 
 /*# sourceMappingURL=app.css.map */

@@ -2,7 +2,8 @@ var Backbone=require("backbone");
 var $ = require("jquery");
 
 var Model = Backbone.Model.extend({
-    urlRoot:"http://tiny-lasagna-server.herokuapp.com/collections/Contacts-Jakes-Eproject/"
+    urlRoot:"http://tiny-lasagna-server.herokuapp.com/collections/Contacts-Jakes-Eproject/",
+     idAttribute: "_id",
 });
 
 var ModelCollection = Backbone.Collection.extend({
